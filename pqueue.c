@@ -91,6 +91,7 @@ void *pqueue_dequeue(PQueue *q) {
 
 /**
 * Turn an "almost-heap" into a heap .
+* TODO: implement this by loop instead of recursion here.
 */
 void pqueue_heapify(PQueue *q, size_t idx) {
     /* left index, right index, largest */
