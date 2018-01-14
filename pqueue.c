@@ -4,9 +4,9 @@
 #include "pqueue.h"
 
 /* Util macros */
-#define LEFT(x) ((x) << 2 + 1)
-#define RIGHT(x) ((x) << 2 + 2)
-#define PARENT(x) ((x) >> 2)
+#define LEFT(x) ((x) << 1 + 1)
+#define RIGHT(x) ((x) << 1 + 2)
+#define PARENT(x) ((x) >> 1)
 
 void pqueue_heapify(PQueue *q, size_t idx);
 
